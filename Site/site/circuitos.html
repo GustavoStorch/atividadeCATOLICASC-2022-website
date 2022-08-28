@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css">
+  <link rel="stylesheet" href="css/estilos.css" type="text/css">
+  <link rel="icon" href="Imagens/logo_black.png">
+  <title>DYNASTY</title>
+</head>
+
+<body class="fundo" style="">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top fundo">
+    <div class="container"> <a class="navbar-brand" href="index.html">
+        <img src="imagens/logo5.png" alt="" width="150" class="d-inline-block align-text-top">
+        <b> <br></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+        data-target="#navbar10">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar10">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" style=""> <a class="nav-link" href="index.html">Vídeo</a>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Componentes</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Circuitos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Equipe</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-md navbar-dark fundo">
+    <div class="container"> <a class="navbar-brand" href="index.html">
+        <img src="imagens/logo5.png" alt="" width="150" class="d-inline-block align-text-top">
+        <b> <br></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+        data-target="#navbar10">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar10">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" style=""> <a class="nav-link" href="index.html">Vídeo</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Componentes</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Circuitos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Equipe</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center texto">Circuitos</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/atividade1.png"></div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-3">Este circuito está simulando um sinaleiro a qual possui três leds com
+            as referentes cores de um sinaleiro, onde primeiramente etará ligado o led verde (sinaleiro aberto), após um
+            tempo Ele apagará e acenderá o led amarelo (atenção) e após o led amarelo se apaga e acende o vermelho
+            (sinaleiro fechado) e assim sucessivamente se dará o circuto. </p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-3">Este circuito está simulando uma luz de emergência, onde quando a luz
+            estiver baixa o led vermelho irá se acender, mas enquanto houver uma certa quantidade de luminosidade o led
+            vermelho se manterá acesso. Para isso é utilizado um sensor de fotoressistor. </p>
+        </div>
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/atividade2.png"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-2 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/atividade3.png"></div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-3">Este circuito está simulando um motor que irá girar para duas
+            direções: Para frente e para trás, para isso foram usados componentes como uma pilha, o motor, ponte H e um
+            interruptor que quando deslizado ele fará o motor girar para o outro lado. </p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-3">Este circuito está simulando um circuito com dois motores onde terá 4
+            direções a qual eles irão girar, os dois para frente, os dois para trás, um pra frente outro pra trás e por
+            fim um prá trás e o outro para frente. Assim sendo possível simular basicamente as rodas de um robo seguidor
+            de linha onde terá os motores a qual terá que girar para estas direções para conseguir realizar as curvas do
+            circuito.</p>
+        </div>
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/atividade4.png"></div>
+      </div>
+    </div>
+  </div>
+  <div class="pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center texto">Robô seguidor de linha</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/teste1.PNG"></div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-5">Esta é a primeira parte do código do robô seguidor de linha, nesta
+            parte é declarada todas
+            as variáveis globais do projeto e as portas de entrada e saídas de cada componente do robô, podemos ver a
+            declaração das portas do motor,
+            e dos sensores, é definido algumas velocidades para o robô e por fim os valores do pid.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-5">Nesta parte do código temos em vista a função de setup onde são
+            setadas algumas entradas de dados, e seus
+            INPUTS e OUTPUTS, que no caso do nosso robô não há nada para ser declarado nessa função, a não ser o serial
+            begin para os leds que foram retirados do robô.
+            <br><br>
+            Logo abaixo temos a função do loop, onde é declarada a função a ser utilizada para que o robô começe a
+            andar.
+          </p>
+        </div>
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/teste2.PNG"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-1 pb-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/teste3.PNG"></div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-5">A função do motorControl é a que diz para qual lado o motor deve girar
+            utilizando os valores recebidos do pid
+            utilizando HIHG e LOW para desligar os motores e mudar a direção de rotação de tais.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-5">A função motorOption é uma pré definição do que o motor deve fazer
+            utilizando da função motorControl,
+            assim ele pode ir pra frente, trás, direita, esquerda e parar caso saia da linha.
+            <br><br>
+            A função motorStop é responsável por fazer o robô seguidor de linha parar após um determinado tempo
+            definido, que no nosso caso foi definida em 18500 segundos.
+          </p>
+        </div>
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/teste4.PNG"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-2 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/teste5.PNG"></div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-5">Esta é a função mais importante do robô, nela são declaradas todas as possivéis combinações de valores dos sensores
+            com base na linha a qual ele deve seguir, e para cada combinação é gerado um valor de erro para que possa ser realizado o cálculo de pid e Ele
+            consiga retornar a sua trajetória normal e estável.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-justify text-white py-5">A função calculaPid e a que irá realizar o cálculo com base no erro que o seguidor de linha
+            apresentar (O quanto ele sair da linha), assim com esse cálculo teremos exatamente a quantidade de curva que deverá ser realizada pelo robô
+            para que ele retorne a linha, além de manter-ló mais estável na pista.
+            <br><br>
+            Já a função de motorPid irá dizer para qual o lado que os motores irão realizar os seus giros.
+          </p>
+        </div>
+        <div class="col-md-6"><img class="img-fluid d-block" src="Imagens/teste6.PNG"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row my-4">
+            <div class="col-md-12">
+              <center><img src="imagens/logo5.png" alt="DYNASTY" width="150"></center>
+            </div>
+          </div>
+          <div class="row py-3 my-4">
+            <div class="col-md-4"><a href="https://www.facebook.com" target="_blank"><i
+                  class="d-block fa fa-facebook-official fa-lg py-2 text-center text-muted"></i></a>
+            </div>
+            <div class="col-md-4"><a href="https://www.instagram.com" target="_blank"><i
+                  class="d-block fa fa-instagram text-muted fa-lg py-2 text-center"></i></a></div>
+            <div class="col-md-4"><a href="https://twitter.com" target="_blank"><i
+                  class="d-block fa fa-twitter text-muted fa-lg py-2 text-center"></i></a></div>
+          </div>
+        </div>
+        <div class="col-md-4" style="">
+          <h2 class="text-center texto">Participantes<br></h2>
+          <p class="lead text-white text-center py-4">Ezequiel Seibert Hellwig<br>Gustavo Kauan Storch<br>Mateus
+            Fernandes<br>Mateus Pohl<br>Vinicius Engelmann</p>
+        </div>
+        <div class="col-md-4" style="">
+          <h2 class="texto text-center">Encontre-nos</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10102.376005475258!2d-49.11814310590865!3d-26.46445371123488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de940dbec22f4d%3A0xf2864ccc867a7dc1!2sCentro%20Universit%C3%A1rio%20-%20Cat%C3%B3lica%20de%20Santa%20Catarina%20em%20Jaragu%C3%A1%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1656179486600!5m2!1spt-BR!2sbr"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 text-white">©Dynasty - 2022.&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
